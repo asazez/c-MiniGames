@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 
-// Include more headers below if needed
 #include "lostking.h"
 #include <stdio.h>
 
