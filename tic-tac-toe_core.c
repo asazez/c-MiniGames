@@ -7,7 +7,6 @@ int boardState(int board, int pos) {
     return board % 10;
 }
 
-/* Prints the board to the screen. DO NOT MODIFY! */
 void printBoard(int board) {
     printf("%d-%d-%d\n",
         boardState(board, 1), boardState(board, 2), boardState(board, 3));
