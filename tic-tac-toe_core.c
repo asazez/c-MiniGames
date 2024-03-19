@@ -1,7 +1,6 @@
 #include "morrisboard.h"
 #include <stdio.h>
 
-/* Returns the state of position pos of the game board. DO NOT MODIFY! */
 int boardState(int board, int pos) {
     for (int i = 0; i < 9 - pos; i++)
         board /= 10;
